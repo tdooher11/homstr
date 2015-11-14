@@ -7,6 +7,8 @@ require_once("library/GMaps.php");
 		include("inc/head.php");
 	?>
 		<title>Homstr: Move With Confidence</title>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "e89f9ca1-437b-4162-a604-6e9046fdfaac", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 		<script type="text/javascript">(function(d, t, e, m){
             //	if (RW && RW.initRating)
 //		return;
@@ -220,7 +222,7 @@ require_once("library/GMaps.php");
 		
         <div class="search-inner">
           
-            <div class="search-section1 top wow fadeInDown" data-wow-delay="0.5s">
+            <div class="search-section1 top wow fadeInDown">
                
                 <aside class="inner-slider">
 
@@ -237,22 +239,16 @@ require_once("library/GMaps.php");
                 <div class="clr"></div>
             </div>
 			
-			 <div class="searchBox"> 
-			 
-						<form name="search-form" id="searchform" action="property/" method="get">
-							<div class="input-group">
-								<input autocomplete="off" name="search" id="autocomplete" placeholder="Search Apartments and Homes..." class="form-control input-lg" type="text" style="border: 2px solid rgb(88, 113, 218);">
-								<span class="input-group-btn">
-									<a class="btn btn-store" onclick="$('form').submit();" style="font-size: 19px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; color: rgb(255, 255, 255);" >Go</a>
-								</span>
-							</div>
-						
-						</form>
-					
-				</div> 
+
+            <br/>
  			 <h1 id="mainaddress"></h1>
+
+            <span class='st_facebook_large' displayText='Facebook'></span>
+            <span class='st_twitter_large' displayText='Tweet'></span>
+            <span class='st_googleplus_large' displayText='Google +'></span>
+            <span class='st_email_large' displayText='Email'></span>
 			
-            <div class="search-section2 top wow fadeInDown" data-wow-delay="0.5s">
+            <div class="search-section2 top wow fadeInDown">
                 <h1>Reviews    <div class="rw-ui-container"></div></h1>
 
                         <!--<div id="disqus_thread"></div>
