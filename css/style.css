@@ -3279,7 +3279,9 @@ color: #000;}
 	}
 
 	.list-view .content-area {
-		padding: 0 10px;
+		margin-left: -30px;
+		margin-right: -30px;
+		margin-top: -60px;
 	}
 
 	.list-view .site-content .hentry {
