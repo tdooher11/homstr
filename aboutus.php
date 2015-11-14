@@ -23,9 +23,9 @@ require_once("library/GMaps.php");
 				<div class="menu-top-container">
 					<ul id="primary-menu" class="nav-menu">
 						<li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home menu-item-8"><a href="index.php">Home</a></li>
+						<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="http://blog.homstr.com">Blog</a></li>
 						<li id="menu-item-7" class="current-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-7 current_page_item"><a href="aboutus.php">About Us</a></li>
 						<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="faq.php">FAQ</a></li>
-                        <!--<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="news/">News</a></li>-->
 						<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="contactus.php">Contact Us</a></li>
 					</ul>
 				</div>			
