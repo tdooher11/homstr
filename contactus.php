@@ -77,7 +77,7 @@ require_once("library/GMaps.php");
 			
 <article id="post-15" class="post-15 page type-page status-publish hentry">
 	<header class="entry-header"><h1 class="entry-title">Contact Us</h1></header><!-- .entry-header -->
-	<div class="entry-content">
+	<div id="mobilepagebody" class="entry-content">
 		<div class="col-xs-12 col-sm-12 col-md-4 contact-info cta-message wow fadeInLeft">
 <address><strong>Homstr</strong><br>
 support@homstr.com</address>

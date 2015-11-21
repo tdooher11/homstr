@@ -1,25 +1,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 
 			
-<div id="supplementary">
-	<div style="position: relative; height: 191px;" id="footer-sidebar" class="footer-sidebar widget-area masonry" role="complementary">
-		<aside style="position: absolute; left: 0px; top: 48px;" id="text-3" class="widget widget_text masonry-brick">			<div class="textwidget"><div style="width:700px;margin-left:auto;margin-right:auto;">
 
-
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- footer ad -->
-                   <!-- <ins class="adsbygoogle"
-                         style="display:block"
-                         data-ad-client="ca-pub-9485592799923193"
-                         data-ad-slot="4023179467"
-                         data-ad-format="auto"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script> -->
-
-                    </div></div>
-		</aside>	</div><!-- #footer-sidebar -->
-</div><!-- #supplementary -->
 
 			<div class="site-info">
 				

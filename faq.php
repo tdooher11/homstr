@@ -56,7 +56,7 @@ require_once("library/GMaps.php");
 			
 <article id="post-15" class="post-15 page type-page status-publish hentry">
 	<header class="entry-header"><h1 class="entry-title">Frequently Asked Questions</h1></header><!-- .entry-header -->
-	<div class="entry-content">
+	<div id="mobilepagebody" class="entry-content">
 		<h3>Q) WHAT ARE THE RULES FOR COMMENTING ON HOMES?</h3>
 <p class="textABout"><strong>A)</strong> We ask that you use your best judgement at all times by being respectful to other members of the community and not using the site as an avenue for SPAM. We ask that you only comment on homes which you yourself have lived in or have had a close relative reside in the home and/or neighborhood which you are commenting on. Homstr prohibits users from adding personally identifiable information about anyone other than themselves.</p>
 <h3>Q) HOW DO I COMMENT ON A HOME?</h3>
