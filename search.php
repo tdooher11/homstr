@@ -1,3 +1,6 @@
+<?
+ob_start (); // Buffer output
+?>
 <!doctype html>
 <?php 
 require_once("library/GMaps.php");
@@ -6,7 +9,7 @@ require_once("library/GMaps.php");
 	<?php 
 		include("inc/head.php");
 	?>
-		<title>Homstr: Move With Confidence</title>
+    <title><!--TITLE--></title>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">stLight.options({publisher: "e89f9ca1-437b-4162-a604-6e9046fdfaac", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 		<script type="text/javascript">(function(d, t, e, m){
@@ -372,3 +375,10 @@ require_once("library/GMaps.php");
 
 	</body>
 </html>
+<?
+$pageContents = ob_get_contents (); // Get all the page's HTML into a string
+ob_end_clean (); // Wipe the buffer
+
+// Replace <!--TITLE--> with $pageTitle variable contents, and print the HTML
+echo str_replace ('<!--TITLE-->', $matchAddress, $pageContents);
+?>
