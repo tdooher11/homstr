@@ -3283,9 +3283,9 @@ color: #000;}
 	}
 
 	.list-view .content-area {
-		margin-left: -30px;
-		margin-right: -30px;
-		margin-top: -60px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: -30px;
 	}
 
 	.list-view .site-content .hentry {
