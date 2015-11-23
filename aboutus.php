@@ -58,9 +58,22 @@ require_once("library/GMaps.php");
 <article id="post-2" class="post-2 page type-page status-publish hentry">
 	<header class="entry-header"><h1 class="entry-title">What Is Homstr?</h1></header><!-- .entry-header -->
 	<div id="mobilepagebody" class="entry-content">
-		<p>In 2013 one of our founders was searching for an apartment to rent and moved into what he thought was the perfect home in the perfect neighborhood. From the ad, the home and neighborhood had everything he wanted: blocks from the beach, parks very nearby, several shops and restaurants within walking distance from the home, and in a place with practically no crime. He viewed the apartment for rent and thought it was perfect so he quickly signed a lease and moved in two weeks later. Once living in the new home he quickly found out several things that he wished he would have known before he signed the lease. For instance, the garbage truck came at 6 am four days a week to service the buildings and businesses nearby. The “cafe” next door was actually a very busy bar that spilled out into the street at least five nights a week until three a.m. Even though the building has a parking garage, he wasn’t aware that the parking wasn’t monitored and would fill up most days; meaning, trying to find a place to park on the street with groceries and a toddler to get inside and a parking ticket if he didn’t get the chance to move his car within two hours. What he learned after he moved in about the home would have prevented him from living there altogether. After this experience he told himself never again and began looking for a resource online that would provide him with information about his next home that he wouldn’t know without living there first. There wasn’t anything. All the information about individual homes was just the same sales oriented bullet points from real estate professionals and property managers everywhere he looked. Determined to never let this happen to anyone again the concept for Homstr was conceived.</p>
-<p>With the help of a group of passionate developers and a few private investors, Homstr was born. You can share a story about their past and present homes or neighborhoods – maybe find out who those handprints belong to in your driveway. You can review an individual property or neighborhood – sharing your experience helps other members of the Homstr community with their decision picking their next home. Start a conversation with other members of the Homstr community – maybe even get the opportunity to become acquainted with your future neighbors before you move in.</p>
-<p>The goal of Homstr is to eventually provide a unique data source that gives details about the home and neighborhoods that you can’t get anywhere else, or, without living there yourself. We at Homstr believe that, in time, people will approach their decision picking their next home much differently than we do today. Simply put: You wouldn’t purchase a car without the Carfax, so why would you ever pick a place to live without first checking Homstr? We are very excited to recover the untold history of homes and neighborhoods as told by past &amp; present residents. Please don’t hesitate to contact us with any suggestions, feature request, questions, or even words of encouragement as we build this online community together.</p>	</div><!-- .entry-content -->
+<p>Founded in 2015 and based in Seattle, WA, Homstr.com is a resource for people to share their opinions of their current and past homes & neighborhoods.
+
+	<p>Using Homstr.com is easy!  Homstr.com allows its community to share stories, opinions, ideas about homes and even connect with neighbors.</p>
+        <ul>
+        <li type="disc">Remodel a home? Share that project on Homstr.com to increase your home's value</li>
+	    <li type="disc">Have a terrible experience with a landlord?  Use Homstr.com to keep landlords and property managers honest!</li>
+        <li type="disc">Want a community garden in your neighborhood?  Make it happen by organizing neighbors on Homstr.com!</li>
+        <li type="disc">Want to know who is living in the area before you move in?  Connect with residents who have posted reviews near your new home!</li>
+        </ul>
+	The list of ways to use Homstr.com could go on and on, but we think you get the idea.  For more entertaining content and even some occassional valuable information, please visit our <a href="http://blog.homstr.com"> blog </a>.
+		<br><br>
+	Please <a href="/contactus.php"> contact us </a> with inquiries, suggestions, comments, requests, or just for the type of encouragement our parents have long since grown tired of giving the Homstr Team.
+		<br><br>
+	Cheers,
+		<br><br>
+	The Homstr.com Team
 </article><!-- #post-## -->
 
 		</div><!-- #content -->
