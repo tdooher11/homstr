@@ -12,7 +12,6 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/32.png" type="image/png"/>
 		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/ico/32.png" type="image/png"/>
 		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/ico/32.png" type="image/png"/>
-		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
 <!--<iframe width="600" height="450" frameborder="0" style="border:0"
 src="https://www.google.com/maps/embed/v1/search?q=chitkarauniversity&key=AIzaSyB9nEVCTC5rzU98EcBqnbyic_c6WUDeNDI"></iframe>-->
 		<!--[if lt IE 9]>
