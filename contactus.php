@@ -20,7 +20,7 @@ $msg=1;
 
 }
 }
-require_once("library/GMaps.php");
+
 
 ?>
 <html ng-app="storeApp">

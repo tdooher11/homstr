@@ -17,7 +17,6 @@
 			</div><!-- .site-info -->
 		</footer>
 		
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
 			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>

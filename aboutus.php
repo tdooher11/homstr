@@ -1,7 +1,5 @@
 <!doctype html>
-<?php 
-require_once("library/GMaps.php");
-?>
+
 <html ng-app="storeApp">
 	<?php 
 		include("inc/head.php");
