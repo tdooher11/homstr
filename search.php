@@ -335,7 +335,7 @@ ob_start (); // Buffer output
 	<li>Research their next home by reading reviews and joining conversations about <em>individual </em>homes – no other site offers a forum for reviews on individual homes</li>
 	<li>Get up to the minute real estate trends</li>
 </ul>
-– no other site offers a forum for reviews on individual homes</div>
+</div>
 		</aside></div>
 		<div class="ads">		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- Maghreb300x600 -->

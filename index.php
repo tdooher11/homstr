@@ -72,7 +72,7 @@ Your browser does not support the video tag.
 	<li>Research their next home by reading reviews and joining conversations about <em>individual </em>homes – no other site offers a forum for reviews on individual homes</li>
 	<li>Get up to the minute real estate trends</li>
 </ul>
-– no other site offers a forum for reviews on individual homes</div>
+</div>
 		</aside></div><!-- #content-sidebar -->
 						<form name="search-form" id="searchform" action="search.php" method="get" class="col-md-12  col-sm-12 ng-pristine ng-valid">
 						<div class="input-group">
