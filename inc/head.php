@@ -39,6 +39,7 @@ src="https://www.google.com/maps/embed/v1/search?q=chitkarauniversity&key=AIzaSy
                 google.maps.event.addListener(autocomplete, 'place_changed', function() {
                     document.getElementById("searchform3").submit();
                 });
+
                 autocomplete = new google.maps.places.Autocomplete(
                     /** @type {HTMLInputElement} */(document.getElementById('autocomplete')),
                     { types: ['geocode'] });
@@ -47,15 +48,7 @@ src="https://www.google.com/maps/embed/v1/search?q=chitkarauniversity&key=AIzaSy
                 google.maps.event.addListener(autocomplete, 'place_changed', function() {
                     document.getElementById("searchform").submit();
                 });
-				 autocomplete = new google.maps.places.Autocomplete(
-                    /** @type {HTMLInputElement} */(document.getElementById('autocomplete2')),
-                    { types: ['geocode'] });
-                // When the user selects an address from the dropdown,
-                // populate the address fields in the form.
-                google.maps.event.addListener(autocomplete, 'place_changed', function() {
-                    document.getElementById("searchform2").submit();
-                });
-				 
+
             }
 
             // [START region_geolocation]
