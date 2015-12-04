@@ -3,15 +3,19 @@ ob_start (); // Buffer output
 ?>
     <!doctype html>
     <html>
-        <?php
-        include("inc/head.php");
-        ?>
+    <?php
+    include("inc/head.php");
+    ?>
     <title>
         <!--TITLE-->
     </title>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">stLight.options({publisher: "e89f9ca1-437b-4162-a604-6e9046fdfaac", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
     <script type="text/javascript">(function(d, t, e, m){
+            //	if (RW && RW.initRating)
+            //		return;
+
+            // Async Rating-Widget initialization.
             window.RW_Async_Init = function(){
 
                 RW.init({
@@ -68,10 +72,12 @@ ob_start (); // Buffer output
                     lng=results[0].geometry.location.lng;
                     address = results[0].formatted_address;
                     var currenturl = document.URL;
+                    //var base_url = window.location.origin;
                     if (!window.location.origin) {
                         window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');
                     }
                     var base_url = window.location.origin;
+                    //var base_url = 'http://www.autohallcanada.net';
                     console.log("address: " + address);
                     console.log("base url: " + base_url);
                     console.log("document url: " + currenturl);
@@ -100,7 +106,12 @@ ob_start (); // Buffer output
                     currenturl=decodeURIComponent(currenturl);
                     currenturl=currenturl.replace(/\s/g, '');
                     if(currenturl!=urlNew){
+                        //currenturl=currenturl.replace(/\s/g, '');
+                        //urlNew=base_url+'/story/search.php?search='+encodeURI(address).replace(/%20/g, '');
+                        //alert(currenturl+' ---- '+decodeURIComponent(urlNew));
+                        //document.location.href=base_url+'/homstr/property/?search='+address;
                         document.location.href='/search.php?search='+address;
+
                     }
 
                     var marker = new google.maps.Marker({
@@ -120,6 +131,7 @@ ob_start (); // Buffer output
                 position: latlng,
                 map: map
             });
+
         }
 
         function toggleStreetView() {
@@ -147,8 +159,10 @@ ob_start (); // Buffer output
                             <div class="col-lg-1 col-md-1  col-sm-1 col-xs-12 wow fadeInUp address">
                                 <?php
                                 $matchAddress	=	$_GET['search'];
+
                                 echo '<div id="address">'.$matchAddress.'</div>';
                                 echo '<div id="geocodedaddress"></div>';
+
                                 ?>
                             </div>
                         </div>
@@ -160,6 +174,7 @@ ob_start (); // Buffer output
                             <div class="search-inner">
                                 <div class="search-section1 top wow fadeInDown">
                                     <aside class="inner-slider">
+
                                         <div id="map-canvas" style="height: 400px;"></div>
                                     </aside>
                                     <div class="clr"></div>
@@ -175,6 +190,7 @@ ob_start (); // Buffer output
                                         Reviews
                                         <div class="rw-ui-container"></div>
                                     </h1>
+
                                     <aside class="review-section">
                                         <div id="disqus_thread"></div>
                                     </aside>
@@ -204,6 +220,8 @@ ob_start (); // Buffer output
                                         })();
                                     </script>
                                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12 sideBar">
