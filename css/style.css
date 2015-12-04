@@ -213,6 +213,11 @@ html {
 	-ms-text-size-adjust:     100%;
 }
 
+#aboutcontent {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
 body,
 button,
 input,

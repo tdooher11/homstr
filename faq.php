@@ -11,7 +11,7 @@ include("inc/navbar.php");
 <div id="main" class="site-main">
     <div id="main-content" class="main-content">
         <div id="primary" class="content-area">
-            <div id="content" class="site-content" role="main">
+            <div id="aboutcontent" class="site-content" role="main">
                 <article id="post-15" class="post-15 page type-page status-publish hentry">
                     <header class="entry-header">
                         <h1 class="entry-title">Frequently Asked Questions</h1>
