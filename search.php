@@ -169,8 +169,8 @@ ob_start (); // Buffer output
                     </div>
                 </section>
                 <section class="gray-bg ng-scope">
-                    <div class="container mapview">
-                        <div class="col-md-8 col-sm-8 col-xs-12 reviewSec">
+                    <div id="mobilemap" container mapview">
+                        <div id="mobilemap" class="col-md-8 col-sm-8 col-xs-12 reviewSec">
                             <div class="search-inner">
                                 <div class="search-section1 top wow fadeInDown">
                                     <aside class="inner-slider">
