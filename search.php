@@ -230,7 +230,7 @@ ob_start (); // Buffer output
                                     <h1 class="widget-title">What Do People Use Homstr For?</h1>
                                     <div class="textwidget">
                                         <ul class="bulletLis">
-                                            <li>Share stories to add to the untold history of the home – from remodels to a child’s first home</li>
+                                            <li>Share stories to add to the untold history of the home from remodels to a child’s first home</li>
                                             <li>Share their personal experience of the home to provide other users with information about the home that you wouldn’t know without living there yourself</li>
                                             <li>Connect with current, past, or potential neighbors to improve neighborhood cohesiveness, reconnect and understand what the neighborhood is like before they sign a lease or closing docs</li>
                                             <li>Keep landlords and property managers honest – who would rent from someone who never fixes things or takes your deposit without justification?</li>
